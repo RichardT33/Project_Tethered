@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "{713DBDEE-4CCC-AB9F-441B-E4ADC8DC590B}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -17,7 +17,6 @@
 		}
 	],
 	"TargetPlatforms": [
-		"AllDesktop",
 		"WindowsNoEditor"
 	]
 }
