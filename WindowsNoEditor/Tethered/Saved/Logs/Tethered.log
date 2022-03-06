@@ -1,0 +1,600 @@
+﻿Log file open, 08/04/21 17:40:15
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogPakFile: Display: Found Pak file ../../../Tethered/Content/Paks/Tethered-WindowsNoEditor.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../Tethered/Content/Paks/Tethered-WindowsNoEditor.pak.
+LogPakFile: PakFile PrimaryIndexSize=21246
+LogPakFile: PakFile PathHashIndexSize=43920
+LogPakFile: PakFile FullDirectoryIndexSize=59959
+LogPakFile: OnPakFileMounted2Time == 0.000003
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 9 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.071551
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin SunPosition
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogLuminAPIImpl: Warning: MLSDK not found.  This likely means the MLSDK environment variable is not set.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-0
+LogInit: Engine Version: 4.26.2-0+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-0+++UE4+Release-4.26
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Aug  4 2021 17:12:00
+LogInit: Compiled with Visual C++: 19.16.27045.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  /Game/Game_Levels/PLVL_Tethered_Realm -log
+LogInit: Base Directory: C:/Users/kezra/Documents/Project_Tethered/WindowsNoEditor/Tethered/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../Tethered/Saved/Config/WindowsServer/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: false
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2021.08.04-22.40.16:121][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.08.04-22.40.16:123][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.08.04-22.40.16:131][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2021.08.04-22.40.16:134][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../Tethered/Saved/Config/WindowsServer/Engine.ini]
+[2021.08.04-22.40.16:145][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.08.04-22.40.16:147][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
+[2021.08.04-22.40.16:154][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
+[2021.08.04-22.40.16:156][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../Tethered/Saved/Config/WindowsServer/Engine.ini]
+[2021.08.04-22.40.16:158][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../Tethered/Saved/Config/WindowsServer/Engine.ini]
+[2021.08.04-22.40.16:163][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.08.04-22.40.16:164][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.08.04-22.40.16:168][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.08.04-22.40.16:170][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.08.04-22.40.16:174][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.08.04-22.40.16:175][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.08.04-22.40.16:181][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.08.04-22.40.16:183][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.08.04-22.40.16:187][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.08.04-22.40.16:188][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.08.04-22.40.16:191][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.08.04-22.40.16:194][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.08.04-22.40.16:197][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.08.04-22.40.16:201][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.08.04-22.40.16:205][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../Tethered/Saved/Config/WindowsServer/Engine.ini]
+[2021.08.04-22.40.16:211][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.08.04-22.40.16:212][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.08.04-22.40.16:219][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.08.04-22.40.16:221][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.08.04-22.40.16:222][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.08.04-22.40.16:222][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.08.04-22.40.16:225][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.08.04-22.40.16:225][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.08.04-22.40.16:225][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.08.04-22.40.16:225][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.08.04-22.40.16:226][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.08.04-22.40.16:230][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.08.04-22.40.16:231][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.08.04-22.40.16:232][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.08.04-22.40.16:233][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../Tethered/Saved/Config/WindowsServer/Engine.ini]
+[2021.08.04-22.40.16:233][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:233][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.08.04-22.40.16:234][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.08.04-22.40.16:234][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:235][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.08.04-22.40.16:236][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:236][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.08.04-22.40.16:237][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.08.04-22.40.16:238][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.08.04-22.40.16:238][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.08.04-22.40.16:238][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.08.04-22.40.16:238][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.08.04-22.40.16:239][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.08.04-22.40.16:239][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.08.04-22.40.16:239][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.08.04-22.40.16:239][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.08.04-22.40.16:241][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.08.04-22.40.16:241][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.08.04-22.40.16:242][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.08.04-22.40.16:242][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.08.04-22.40.16:242][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.08.04-22.40.16:243][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.08.04-22.40.16:243][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.08.04-22.40.16:243][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.08.04-22.40.16:243][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:244][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.08.04-22.40.16:244][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.08.04-22.40.16:244][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.08.04-22.40.16:244][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.08.04-22.40.16:245][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.08.04-22.40.16:245][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.08.04-22.40.16:245][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.08.04-22.40.16:245][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.08.04-22.40.16:246][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.08.04-22.40.16:246][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.08.04-22.40.16:246][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.08.04-22.40.16:246][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.08.04-22.40.16:247][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.08.04-22.40.16:248][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.08.04-22.40.16:248][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.08.04-22.40.16:248][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.08.04-22.40.16:248][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.08.04-22.40.16:249][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.08.04-22.40.16:249][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.08.04-22.40.16:249][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.08.04-22.40.16:249][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.08.04-22.40.16:250][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.08.04-22.40.16:252][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.08.04-22.40.16:253][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.08.04-22.40.16:253][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.08.04-22.40.16:253][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.08.04-22.40.16:253][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.08.04-22.40.16:254][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.08.04-22.40.16:254][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.08.04-22.40.16:254][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.08.04-22.40.16:255][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:255][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.08.04-22.40.16:255][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.08.04-22.40.16:256][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.08.04-22.40.16:256][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.08.04-22.40.16:256][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.08.04-22.40.16:256][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.08.04-22.40.16:257][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.08.04-22.40.16:257][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.08.04-22.40.16:257][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.08.04-22.40.16:257][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:258][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.08.04-22.40.16:258][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.08.04-22.40.16:258][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.08.04-22.40.16:258][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.08.04-22.40.16:259][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.08.04-22.40.16:259][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.08.04-22.40.16:259][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.08.04-22.40.16:259][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.08.04-22.40.16:260][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.08.04-22.40.16:260][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.08.04-22.40.16:260][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.08.04-22.40.16:260][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.08.04-22.40.16:261][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.08.04-22.40.16:263][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.08.04-22.40.16:264][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.08.04-22.40.16:264][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.08.04-22.40.16:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.08.04-22.40.16:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.08.04-22.40.16:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.08.04-22.40.16:265][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.08.04-22.40.16:266][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.08.04-22.40.16:266][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.08.04-22.40.16:266][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.08.04-22.40.16:266][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.08.04-22.40.16:267][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.08.04-22.40.16:267][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.08.04-22.40.16:267][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.08.04-22.40.16:267][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.08.04-22.40.16:268][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:268][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.08.04-22.40.16:268][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.08.04-22.40.16:268][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:269][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.08.04-22.40.16:269][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.08.04-22.40.16:269][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.08.04-22.40.16:270][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2021.08.04-22.40.16:270][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2021.08.04-22.40.16:270][  0]LogHAL: Display: Platform has ~ 32 GB [34197622784 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.08.04-22.40.16:270][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2021.08.04-22.40.16:271][  0]LogInit: Going up to parent DeviceProfile []
+[2021.08.04-22.40.16:271][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:271][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.08.04-22.40.16:271][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.08.04-22.40.16:272][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:274][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.08.04-22.40.16:275][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:275][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.08.04-22.40.16:276][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.08.04-22.40.16:276][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.08.04-22.40.16:276][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.08.04-22.40.16:277][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.08.04-22.40.16:278][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.08.04-22.40.16:278][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.08.04-22.40.16:278][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.08.04-22.40.16:279][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.08.04-22.40.16:279][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.08.04-22.40.16:279][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.08.04-22.40.16:279][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.08.04-22.40.16:280][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.08.04-22.40.16:280][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.08.04-22.40.16:280][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.08.04-22.40.16:281][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.08.04-22.40.16:281][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.08.04-22.40.16:281][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.08.04-22.40.16:281][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:282][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.08.04-22.40.16:282][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.08.04-22.40.16:282][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.08.04-22.40.16:283][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.08.04-22.40.16:285][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.08.04-22.40.16:286][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.08.04-22.40.16:286][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.08.04-22.40.16:286][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.08.04-22.40.16:287][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.08.04-22.40.16:287][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.08.04-22.40.16:287][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.08.04-22.40.16:287][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.08.04-22.40.16:288][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.08.04-22.40.16:288][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.08.04-22.40.16:288][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.08.04-22.40.16:288][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.08.04-22.40.16:289][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.08.04-22.40.16:289][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.08.04-22.40.16:289][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.08.04-22.40.16:289][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.08.04-22.40.16:290][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.08.04-22.40.16:290][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.08.04-22.40.16:290][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.08.04-22.40.16:290][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.08.04-22.40.16:291][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.08.04-22.40.16:292][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.08.04-22.40.16:292][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.08.04-22.40.16:292][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.08.04-22.40.16:293][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.08.04-22.40.16:293][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.08.04-22.40.16:293][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:293][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.08.04-22.40.16:294][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.08.04-22.40.16:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.08.04-22.40.16:297][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.08.04-22.40.16:297][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.08.04-22.40.16:297][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.08.04-22.40.16:298][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.08.04-22.40.16:298][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.08.04-22.40.16:298][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.08.04-22.40.16:298][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:299][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.08.04-22.40.16:299][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.08.04-22.40.16:299][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.08.04-22.40.16:299][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.08.04-22.40.16:300][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.08.04-22.40.16:300][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.08.04-22.40.16:300][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.08.04-22.40.16:300][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.08.04-22.40.16:301][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.08.04-22.40.16:301][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.08.04-22.40.16:301][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.08.04-22.40.16:301][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.08.04-22.40.16:302][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.08.04-22.40.16:302][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.08.04-22.40.16:302][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.08.04-22.40.16:302][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.08.04-22.40.16:302][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.08.04-22.40.16:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.08.04-22.40.16:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.08.04-22.40.16:303][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.08.04-22.40.16:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.08.04-22.40.16:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.08.04-22.40.16:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.08.04-22.40.16:304][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.08.04-22.40.16:305][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.08.04-22.40.16:307][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.08.04-22.40.16:308][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.08.04-22.40.16:308][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.08.04-22.40.16:308][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:308][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.08.04-22.40.16:309][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.08.04-22.40.16:309][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../Tethered/Saved/Config/WindowsServer/Scalability.ini]
+[2021.08.04-22.40.16:309][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.08.04-22.40.16:309][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.08.04-22.40.16:310][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.08.04-22.40.16:310][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.08.04-22.40.16:310][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../Tethered/Saved/Config/WindowsServer/Engine.ini]
+[2021.08.04-22.40.16:311][  0]LogInit: Computer: MSI
+[2021.08.04-22.40.16:311][  0]LogInit: User: kezra
+[2021.08.04-22.40.16:312][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.08.04-22.40.16:312][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.08.04-22.40.16:312][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2021.08.04-22.40.16:312][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2021.08.04-22.40.16:313][  0]LogMemory: Process Physical Memory: 66.93 MB used, 66.93 MB peak
+[2021.08.04-22.40.16:313][  0]LogMemory: Process Virtual Memory: 71.42 MB used, 71.42 MB peak
+[2021.08.04-22.40.16:313][  0]LogMemory: Physical Memory: 8774.26 MB used,  23839.14 MB free, 32613.39 MB total
+[2021.08.04-22.40.16:313][  0]LogMemory: Virtual Memory: 134192688.00 MB used,  25043.13 MB free, 134217728.00 MB total
+[2021.08.04-22.40.16:336][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2021.08.04-22.40.16:337][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.16:337][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.16:838][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.16:838][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.17:341][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.17:342][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.17:844][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.17:844][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.18:346][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.18:346][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.18:848][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.18:848][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.18:849][  0]LogPhysicsCore: Warning: Failed to load module '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll'
+[2021.08.04-22.40.18:851][  0]LogPhysicsCore: Warning: 	Exists: false
+[2021.08.04-22.40.18:851][  0]LogPhysicsCore: Warning: 	FileSize: -1
+[2021.08.04-22.40.18:852][  0]LogPhysicsCore: Warning: 	Able to read: false
+[2021.08.04-22.40.18:852][  0]LogPhysicsCore: Warning: 	Library does not exist.
+[2021.08.04-22.40.18:854][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.18:854][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.19:356][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.19:357][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.19:859][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.19:859][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.20:363][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.20:363][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.20:865][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.20:865][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.21:368][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.21:368][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.21:370][  0]LogPhysicsCore: Warning: Failed to load module '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll'
+[2021.08.04-22.40.21:372][  0]LogPhysicsCore: Warning: 	Exists: false
+[2021.08.04-22.40.21:372][  0]LogPhysicsCore: Warning: 	FileSize: -1
+[2021.08.04-22.40.21:372][  0]LogPhysicsCore: Warning: 	Able to read: false
+[2021.08.04-22.40.21:373][  0]LogPhysicsCore: Warning: 	Library does not exist.
+[2021.08.04-22.40.21:375][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.21:375][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.21:876][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.21:876][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.22:378][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.22:379][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.22:880][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.22:880][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.23:382][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.23:382][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.23:885][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.23:885][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.23:886][  0]LogPhysicsCore: Warning: Failed to load module '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll'
+[2021.08.04-22.40.23:889][  0]LogPhysicsCore: Warning: 	Exists: false
+[2021.08.04-22.40.23:890][  0]LogPhysicsCore: Warning: 	FileSize: -1
+[2021.08.04-22.40.23:891][  0]LogPhysicsCore: Warning: 	Able to read: false
+[2021.08.04-22.40.23:891][  0]LogPhysicsCore: Warning: 	Library does not exist.
+[2021.08.04-22.40.23:892][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.23:892][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' does not exist
+[2021.08.04-22.40.24:393][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.24:393][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' does not exist
+[2021.08.04-22.40.24:895][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.24:895][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' does not exist
+[2021.08.04-22.40.25:397][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.25:397][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' does not exist
+[2021.08.04-22.40.25:899][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.25:899][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' does not exist
+[2021.08.04-22.40.26:401][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.26:402][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll' does not exist
+[2021.08.04-22.40.26:403][  0]LogPhysicsCore: Warning: Failed to load module '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll'
+[2021.08.04-22.40.26:405][  0]LogPhysicsCore: Warning: 	Exists: false
+[2021.08.04-22.40.26:409][  0]LogPhysicsCore: Warning: 	FileSize: -1
+[2021.08.04-22.40.26:409][  0]LogPhysicsCore: Warning: 	Able to read: false
+[2021.08.04-22.40.26:410][  0]LogPhysicsCore: Warning: 	Library does not exist.
+[2021.08.04-22.40.26:411][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.26:412][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.26:912][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.26:912][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.27:415][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.27:415][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.27:917][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.27:917][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.28:421][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.28:421][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.28:923][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.28:923][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.28:924][  0]LogPhysicsCore: Warning: Failed to load module '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEXFrameworkPROFILE_x64.dll'
+[2021.08.04-22.40.28:926][  0]LogPhysicsCore: Warning: 	Exists: false
+[2021.08.04-22.40.28:927][  0]LogPhysicsCore: Warning: 	FileSize: -1
+[2021.08.04-22.40.28:928][  0]LogPhysicsCore: Warning: 	Able to read: false
+[2021.08.04-22.40.28:928][  0]LogPhysicsCore: Warning: 	Library does not exist.
+[2021.08.04-22.40.28:930][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.28:930][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.29:431][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.29:431][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.29:933][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.29:933][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.30:438][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.30:438][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.30:941][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.30:941][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.31:444][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.31:444][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.31:447][  0]LogPhysicsCore: Warning: Failed to load module '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll'
+[2021.08.04-22.40.31:449][  0]LogPhysicsCore: Warning: 	Exists: false
+[2021.08.04-22.40.31:450][  0]LogPhysicsCore: Warning: 	FileSize: -1
+[2021.08.04-22.40.31:450][  0]LogPhysicsCore: Warning: 	Able to read: false
+[2021.08.04-22.40.31:451][  0]LogPhysicsCore: Warning: 	Library does not exist.
+[2021.08.04-22.40.31:452][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.31:452][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.31:953][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.31:953][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.32:455][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.32:455][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.32:958][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.32:958][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.33:460][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.33:460][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.33:962][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' (GetLastError=126)
+[2021.08.04-22.40.33:962][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll' does not exist
+[2021.08.04-22.40.33:963][  0]LogPhysicsCore: Warning: Failed to load module '../../../Engine/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll'
+[2021.08.04-22.40.33:966][  0]LogPhysicsCore: Warning: 	Exists: false
+[2021.08.04-22.40.33:967][  0]LogPhysicsCore: Warning: 	FileSize: -1
+[2021.08.04-22.40.33:967][  0]LogPhysicsCore: Warning: 	Able to read: false
+[2021.08.04-22.40.33:968][  0]LogPhysicsCore: Warning: 	Library does not exist.
+[2021.08.04-22.40.33:968][  0]LogCore: Engine exit requested (reason: EngineExit() was called)
+[2021.08.04-22.40.33:974][  0]LogExit: Preparing to exit.
+[2021.08.04-22.40.33:974][  0]LogUObjectArray: CloseDisregardForGC: 2541/2541 objects in disregard for GC pool
+[2021.08.04-22.40.33:977][  0]LogExit: Object subsystem successfully closed.
+[2021.08.04-22.40.33:978][  0]LogModuleManager: Shutting down and abandoning module Chaos (80)
+[2021.08.04-22.40.33:978][  0]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (78)
+[2021.08.04-22.40.33:978][  0]LogModuleManager: Shutting down and abandoning module SteamVRInput (76)
+[2021.08.04-22.40.33:980][  0]LogModuleManager: Shutting down and abandoning module SteamVR (74)
+[2021.08.04-22.40.33:980][  0]LogHMD: Freeing OpenVRDLLHandle.
+[2021.08.04-22.40.33:981][  0]LogModuleManager: Shutting down and abandoning module OculusHMD (72)
+[2021.08.04-22.40.33:981][  0]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (70)
+[2021.08.04-22.40.33:982][  0]LogModuleManager: Shutting down and abandoning module ChunkDownloader (68)
+[2021.08.04-22.40.33:983][  0]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2021.08.04-22.40.33:985][  0]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (62)
+[2021.08.04-22.40.33:986][  0]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2021.08.04-22.40.33:986][  0]LogHttp: Display: cleaning up 0 outstanding Http requests.
+[2021.08.04-22.40.34:002][  0]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2021.08.04-22.40.34:002][  0]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (52)
+[2021.08.04-22.40.34:003][  0]LogModuleManager: Shutting down and abandoning module MLSDK (50)
+[2021.08.04-22.40.34:005][  0]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2021.08.04-22.40.34:006][  0]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (46)
+[2021.08.04-22.40.34:007][  0]LogModuleManager: Shutting down and abandoning module NiagaraShader (44)
+[2021.08.04-22.40.34:008][  0]LogModuleManager: Shutting down and abandoning module ChaosCloth (42)
+[2021.08.04-22.40.34:008][  0]LogModuleManager: Shutting down and abandoning module VariantManagerContent (40)
+[2021.08.04-22.40.34:009][  0]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2021.08.04-22.40.34:009][  0]LogModuleManager: Shutting down and abandoning module AISupportModule (36)
+[2021.08.04-22.40.34:010][  0]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (34)
+[2021.08.04-22.40.34:010][  0]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (32)
+[2021.08.04-22.40.34:011][  0]LogModuleManager: Shutting down and abandoning module PlatformCrypto (30)
+[2021.08.04-22.40.34:011][  0]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2021.08.04-22.40.34:012][  0]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2021.08.04-22.40.34:013][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.08.04-22.40.34:015][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.08.04-22.40.34:016][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.08.04-22.40.34:016][  0]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.08.04-22.40.34:017][  0]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.08.04-22.40.34:017][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.08.04-22.40.34:018][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.08.04-22.40.34:019][  0]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.08.04-22.40.34:019][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.08.04-22.40.34:019][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.08.04-22.40.34:020][  0]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.08.04-22.40.34:020][  0]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.08.04-22.40.34:024][  0]LogExit: Exiting.
+[2021.08.04-22.40.34:041][  0]Log file closed, 08/04/21 17:40:34
